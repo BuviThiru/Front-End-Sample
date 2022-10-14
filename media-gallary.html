@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Gallery</title>
+    <style>
+        html,body{
+            margin:50px 200px;
+        }
+        div{
+           margin:0;
+        }
+
+        img{
+            width: 250px;
+            height:250px;
+            transition: transform 2.5s;
+            
+            
+        }
+        img:hover{
+            transform: scale3d(1.5,1.5,1.5);
+            transition-delay: 1.5s;    
+        }
+        h1{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            margin-bottom: 50px;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto  ;
+             /* margin:300px; */
+            align-items: center;
+            row-gap: 10px;
+            column-gap: 10px;
+            
+            
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1>MEDIA GALLARY</h1>
+    <div class="grid-container">
+    <div>
+      <img
+        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/yellow-flowers-1587061884.jpg"
+      />
+    </div>
+    <div>
+      <img
+        src="http://cdn.shopify.com/s/files/1/0047/9730/0847/products/nurserylive-seeds-chrysanthemum-alaska-white-flower-seeds-16968784052364.jpg?v=1634203627"
+      />
+    </div>
+    <div>
+      <img
+        src="https://www.thespruce.com/thmb/mJcKOhBkm52dt5jVeCKKL54DCFU=/4288x2848/filters:fill(auto,1)/pictures-of-red-flowers-4061761-hero-6a032be909a74ac3bf4009232c295845.jpg"
+      />
+    </div>
+    <div>
+      <img
+        src="https://media.istockphoto.com/photos/hydrangea-flowers-in-the-garden-picture-id927499422?k=20&m=927499422&s=612x612&w=0&h=9fZtBAXZ3I8qNRTi87SHTDEjbBjyn_eRoDoLAC7zVvg="
+    />
+    </div>
+    <div>
+      <img
+        src="https://www.floraqueen.com/blog/wp-content/uploads/2017/11/Untitled-design-3-1.jpg"
+      />
+    </div>
+    <div>
+      <img
+        src="https://media.gettyimages.com/photos/spring-purple-tulips-sunset-picture-id1268431030?k=20&m=1268431030&s=612x612&w=0&h=ZN1CrvtR-bDNufVjZ-2dRM5bhC6Vb-_Do0HB4cfqfWs="
+      />
+    </div>
+</div>
+  </body>
+</html>
